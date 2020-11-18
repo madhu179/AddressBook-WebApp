@@ -27,9 +27,25 @@
                     </div>
                 </div>
                 <div class="row-content">
-                    <input class="input" type="text" name="name" id="name" placeholder="Full Name" required>
-                    <error-output class="text-error" for="text"></error-output>
+                    <input class="input" type="text" name="Name" id="name" placeholder="Full Name" required>
+                    <error-output class="name-error" for="text"></error-output>
                 </div>
+                <div class="row-content">
+                    <textarea class="input" id="address" name="Address" placeholder="Address" style="height: 100px;"></textarea>
+                </div>
+                <div class="row-content">
+                  <input class="input" type="text" name="City" id="city" placeholder="City" required>
+                  <input class="input" type="text" name="State" id="state" placeholder="State" required>
+                  <input class="input" type="text" name="Zip" id="zip" placeholder="Zip Code" required>
+              </div>
+              <div class="row-content">
+                <input class="input" type="text" name="Phone" id="phone" placeholder="Phone Number" required>
+                <error-output class="phone-error" for="text"></error-output>
+            </div>
+            <div class="row-content">
+              <input class="input" type="text" name="Email" id="email" placeholder="Email" required>
+              <error-output class="email-error" for="text"></error-output>
+          </div>
             </form>
         </div>
         </body>
