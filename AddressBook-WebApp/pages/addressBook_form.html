@@ -19,7 +19,7 @@
           </div>
         </header>
         <div class="form-content">
-            <form class="form" action="#">
+            <form class="form" action="#" onreset="resetForm()" onsubmit="save()">
                 <div class="form-head-content">
                     <div class="form-head">Person Address Form</div>
                     <div class="form-logo-content">
@@ -45,7 +45,11 @@
             <div class="row-content">
               <input class="input" type="text" name="Email" id="email" placeholder="Email" required>
               <error-output class="email-error" for="text"></error-output>
-          </div>
+          ` </div>
+            <div class="submit-reset">
+              <button type="submit" class="button submitButton" id="submitButton">Add</button>
+              <button type="reset" class="resetButton button">Reset</button>
+            </div>
             </form>
         </div>
         </body>
